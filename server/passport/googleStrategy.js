@@ -1,7 +1,7 @@
 const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy
 const User = require('../db/models/user')
-
-const strategy = new GoogleStrategy(
+// ==== Uncommit from google login ====
+const strategy = "" /*new GoogleStrategy(
 	{
 		clientID: process.env.GOOGLE_CLIENT_ID,
 		clientSecret: process.env.GOOGLE_CLIENT_SECRET,
@@ -50,5 +50,5 @@ const strategy = new GoogleStrategy(
 		}) // closes User.findONe
 	}
 )
-
+*/
 module.exports = strategy
