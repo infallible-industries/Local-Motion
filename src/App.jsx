@@ -72,7 +72,7 @@ class App extends Component {
 			} else {
 				this.setState({
 					loggedIn: false,
-					user: null
+					user: null 
 				})
 			}
 		})
