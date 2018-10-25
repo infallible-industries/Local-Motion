@@ -19,6 +19,7 @@ const Home = props => {
 					{JSON.stringify(props)}
 				</code>
 			</div>
+			
 		)
 	}
 }

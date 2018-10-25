@@ -1,3 +1,6 @@
+
+
+
 import React, { Component } from 'react'
 import axios from 'axios'
 import { Route, Link } from 'react-router-dom'
@@ -120,9 +123,7 @@ class App extends Component {
 				{/*  ROUTES */}
 				{/* <Route exact path="/" component={Home} /> */}
 				<Route exact path="/" render={() => <Home user={this.state.user} />} />
-				<Route
-					exact
-					path="/login"
+				<Route exact path="/login"
 					render={() =>
 						<LoginForm
 							_login={this._login}
