@@ -1,3 +1,5 @@
 node_modules/
 dotenv/
 .ds_Store
+package-lock.json
+src/index.css
