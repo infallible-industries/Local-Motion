@@ -1,4 +1,5 @@
 import React from 'react'
+import Map from "./Map";
 // TODO - add proptypes
 
 const Home = props => {
@@ -9,6 +10,8 @@ const Home = props => {
 				<code>
 					{JSON.stringify(props)}
 				</code>
+				
+			<Map loc={props.user.loc}/>
 			</div>
 		)
 	} else {
@@ -19,9 +22,10 @@ const Home = props => {
 					{JSON.stringify(props)}
 				</code>
 			</div>
-			
+
 		)
 	}
+
 }
 
 export default Home

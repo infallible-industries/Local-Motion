@@ -8,7 +8,7 @@ import './App.css'
 import LoginForm from './components/Login/LoginForm'
 import SignupForm from './components/SignupForm'
 import Header from './components/Header'
-import Home from './components/Home'
+import Home from './components/Home' 
 
 const DisplayLinks = props => {
 	if (props.loggedIn) {
@@ -73,9 +73,10 @@ class App extends Component {
 					user: response.data.user
 				})
 			} else {
+				console.log(response.data)
 				this.setState({
 					loggedIn: false,
-					user: null
+					user: null 
 				})
 			}
 		})
@@ -102,7 +103,7 @@ class App extends Component {
 				password
 			})
 			.then(response => {
-				console.log(response)
+				console.log(response+"\n log")
 				if (response.status === 200) {
 					// update the state
 					this.setState({

@@ -11,6 +11,10 @@ const userSchema = new Schema({
 		username: { type: String, unique: false, required: false },
 		password: { type: String, unique: false, required: false }
 	},
+	loc:{
+		lat:{type:Number, unique: false, required: false  },
+		lng:{type:Number, unique: false, required: false  }
+	},
 	google: {
 		googleId: { type: String, required: false }
 	},
