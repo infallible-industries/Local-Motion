@@ -36,15 +36,10 @@ const Header = props => {
 	return (
 		<div className="Header">
 			{Greeting}
-			<div class="auto-container">
-				<div class="clearfix">
-					<div class="top-left">
-						<ul class="clearfix">
-							<li><a href="mailto:infallibleindustries@gmail.com">infallibleindustries@gmail.com</a></li>
-						</ul>
-					</div>
-					<div class="top-right">
-						{sign}
+			<div className="auto-container">
+				<div className="clearfix">
+					<div className="top-right">
+						{/* {sign} */}
 					</div>
 				</div>
 			</div>

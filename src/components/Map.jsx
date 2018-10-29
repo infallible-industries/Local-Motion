@@ -6,17 +6,19 @@ export class MapContainer extends Component {
   render() {
     const  {loc}  = this.props
     return (
-      <Map google={this.props.google} zoom={14} initialCenter={(loc)?loc: { lat: 37.8716, lng: -122.2727} }>
+      <div style={{ height: '80vh', width: '100%' }}>
+      <Map google={this.props.google} style={{ height: '80vh', width: '100%' }} zoom={14} initialCenter={(loc)?loc: { lat: 37.8716, lng: -122.2727} }>
 
         <Marker onClick={this.onMarkerClick}
                 name={'Current location'} />
 
         <InfoWindow onClose={this.onInfoWindowClose}>
             <div>
-              <h1>{"hi"}</h1>
+              <h1>hi</h1>
             </div>
         </InfoWindow>
       </Map>
+      </div>
     ); 
   }
 }
