@@ -1,8 +1,12 @@
 #home{
-    /* overflow: hidden; */
-    /* z-index: -10; */
+    overflow: hidden;
     margin: 20px 0px ;
     color: white;
+
 }
 
-
+h2, .auto-container, .sec-title {
+    z-index: 1000;
+    font-size: 40px;
+    
+}

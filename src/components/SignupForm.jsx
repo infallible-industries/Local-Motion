@@ -68,7 +68,13 @@ class SignupForm extends Component {
 					onChange={this.handleChange}
 				/>
 				<button onClick={this.handleSubmit}>Sign up</button>
+
+
+				<img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/cleaning.jpeg"/> 
+
 			</div>
+
+			
 		)
 	}
 }

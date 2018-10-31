@@ -11,6 +11,7 @@ import Header from './components/Header'
 import Home from './components/Home' 
 import Footer from './components/footer'
 
+
 const DisplayLinks = props => {
 	if (props.loggedIn) {
 		return (
@@ -122,7 +123,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<h1>Local Motion</h1>
+				<h1 id="title">Local Motion</h1>
 				<div></div>
 				<Header user={this.state.user} />
 				{/* LINKS to our different 'pages' */}

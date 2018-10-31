@@ -30,8 +30,6 @@ export default class footer extends Component {
                                 <div class="auto-container">
                                     <div class="inner-container clearfix">
                                         <ul class="bottom-links">
-                                            <li><a href="about.html">About us</a></li>
-                                            <li><a href="portfolio-grid.html">Portfolio</a></li>
                                             <li><a href="mailto:infallibleindustries@gmail.com">Contact us</a></li>
 
                                         </ul>

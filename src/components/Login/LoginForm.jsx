@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
+import "./login.css"
 // import googleButton from './google_signin_buttons/web/1x/btn_google_signin_dark_disabled_web.png'
 // import googleButton from './google_signin_buttons/web/1x/btn_google_signin_dark_normal_web.png'
 
@@ -58,36 +59,18 @@ class LoginForm extends Component {
 					{/* <a href="/auth/google">
 						<img src={googleButton} alt="sign into Google Button" />
 					</a> */}
-					<div className = "potato">
 					
-					
-					</div>
+
+
+					<img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/contractor.jpeg"/> 
 			
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-					
-
-
 				</div>
+				
 			)
 		}
 	}

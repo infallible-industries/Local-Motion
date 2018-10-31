@@ -54,10 +54,20 @@ class Home extends React.Component {
         })
     }
 render(){
+	
 	return (
+
+		
 		<div id="home">
+		
+		<div class="sec-title text-center">
+			   <h2>Let us help you find jobs to make some cash for your pocket!</h2>
+		</div>
+
+		
+		
 		<section class="main-slider">
-			<div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
+			<div class="rev_slider_wrapper  fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
 				<div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
 					<ul>
 						 
@@ -103,8 +113,7 @@ render(){
 								<a href="content.html" class="theme-btn btn-style-two"><span>OUR WORKS</span></a> */}
 							</div>
 						</li>
-	
-						 
+					 
 						<li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-2.jpg" data-title="Slide Title" data-transition="parallaxvertical">
 							
 							<img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/lawnMower.jpeg"/> 
@@ -154,75 +163,75 @@ render(){
 		
 		<section class="services-section">
        
-        <div class="anim-icons">
-            <div class="icon icon-dots-1 wow zoomIn" data-wow-delay="1000ms"></div>
-            <div class="icon icon-forward wow zoomIn" data-wow-duration="2000ms"></div>
-            <div class="icon icon-square wow zoomIn" data-wow-delay="1000ms"></div>
-        </div>
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <h2>What We Do?</h2>
-                <div class="text">We help you find small jobs or tasks<br/> to turn your bank acount from zero to hundreds!</div>
-            </div>
+	   <div class="anim-icons">
+		   <div class="icon icon-dots-1 wow zoomIn" data-wow-delay="1000ms"></div>
+		   <div class="icon icon-forward wow zoomIn" data-wow-duration="2000ms"></div>
+		   <div class="icon icon-square wow zoomIn" data-wow-delay="1000ms"></div>
+	   </div>
+	   <div class="auto-container">
+		   <div class="sec-title text-center">
+			   <h2>What We Do?</h2>
+			   {/* <div class="text">We help you find small jobs or tasks<br/> to turn your bank acount from zero to hundreds!</div> */}
+		   </div>
 
-            <div class="row clearfix">
-               
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                    <div class="inner-box">
-                        <span class="icon flaticon-light-bulb-1"></span>
-                        <h3><a href="services.html">Lawn Mowing</a></h3>
-                        <div class="text">Help someone close to you mow their lawn and make a few bucks!</div>
-                    </div>
-                </div>
+		   <div class="row clearfix">
+			  
+			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+				   <div class="inner-box">
+					   <span class="icon flaticon-light-bulb-1"></span>
+					   <h3><a href="services.html">Lawn Mowing</a></h3>
+					   {/* <div class="text">Help someone close to you mow their lawn and make a few bucks!</div> */}
+				   </div>
+			   </div>
 
-               
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
-                    <div class="inner-box">
-                        <span class="icon flaticon-measure"></span>
-                        <h3><a href="services.html">Car Mechanics</a></h3>
-                        <div class="text">Help someone build the furniture they can't!</div>
-                    </div>
-                </div>
+			  
+			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
+				   <div class="inner-box">
+					   <span class="icon flaticon-measure"></span>
+					   <h3><a href="services.html">Car Mechanics</a></h3>
+					   {/* <div class="text">Help someone build the furniture they can't!</div> */}
+				   </div>
+			   </div>
 
-               
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
-                    <div class="inner-box">
-                        <span class="icon flaticon-dashboard"></span>
-                        <h3><a href="services.html">House Cleaning</a></h3>
-                        <div class="text">Help someone with their dirty house!</div>
-                    </div>
-                </div>
+			  
+			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+				   <div class="inner-box">
+					   <span class="icon flaticon-dashboard"></span>
+					   <h3><a href="services.html">House Cleaning</a></h3>
+					   {/* <div class="text">Help someone with their dirty house!</div> */}
+				   </div>
+			   </div>
 
-               
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                    <div class="inner-box">
-                        <span class="icon flaticon-cogwheel-outline"></span>
-                        <h3><a href="services.html">Dish Washing</a></h3>
-                        <div class="text">Clean up someone's mess could earn you money in your pocket!</div>
-                    </div>
-                </div>
+			  
+			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+				   <div class="inner-box">
+					   <span class="icon flaticon-cogwheel-outline"></span>
+					   <h3><a href="services.html">Dish Washing</a></h3>
+					   {/* <div class="text">Clean up someone's mess could earn you money in your pocket!</div> */}
+				   </div>
+			   </div>
 
-               
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
-                    <div class="inner-box">
-                        <span class="icon flaticon-vector-2"></span>
-                        <h3><a href="services.html">Moving Heavy Items</a></h3>
-                        <div class="text">Moving someones furniture has never been easier!</div>
-                    </div>
-                </div>
+			  
+			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
+				   <div class="inner-box">
+					   <span class="icon flaticon-vector-2"></span>
+					   <h3><a href="services.html">Moving Heavy Items</a></h3>
+					   {/* <div class="text">Moving someones furniture has never been easier!</div> */}
+				   </div>
+			   </div>
 
-               
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
-                    <div class="inner-box">
-                        <span class="icon flaticon-layers"></span>
-                        <h3><a href="services.html">Home improvement</a></h3>
-                        <div class="text">Being the handy man, can be very lucrative!</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-		
-    </section>
+			  
+			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+				   <div class="inner-box">
+					   <span class="icon flaticon-layers"></span>
+					   <h3><a href="services.html">Home improvement</a></h3>
+					   {/* <div class="text">Being the handy man, can be very lucrative!</div> */}
+				   </div>
+			   </div>
+		   </div>
+	   </div>
+	   
+   </section>
 	
 	</div>
 

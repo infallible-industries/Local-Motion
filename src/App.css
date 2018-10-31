@@ -31,6 +31,14 @@
   to { transform: rotate(360deg); }
 }
 
+#title {
+  color: white;
+  font-size: 75px;
+  font-family: 'Notable', sans-serif;
+}
+
+
+
 /* .potato {
   background-image: url("/public/images/carwash.jpeg");
   
