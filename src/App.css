@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-color:black;
+  
+}
+:root{
+  background-image: url("/public/images/carwash.jpeg");
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
 }
 
 .App-logo {
@@ -9,7 +17,7 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 100%;
   padding: 20px;
   color: white;
 }
@@ -22,3 +30,16 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* .potato {
+  background-image: url("/public/images/carwash.jpeg");
+  
+} */
+
+/* h2 {
+  color: white;
+}
+
+h3{
+  color: white;
+} */

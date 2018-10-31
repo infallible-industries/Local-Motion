@@ -6,6 +6,7 @@ const Header = props => {
 	let sign
 	if (props.user === null) {
 		Greeting = <p>Hello guest</p>
+		
 	} else if (props.user.firstName) {
 		Greeting = (
 			<p>

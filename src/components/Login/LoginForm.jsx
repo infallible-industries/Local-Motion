@@ -58,6 +58,35 @@ class LoginForm extends Component {
 					{/* <a href="/auth/google">
 						<img src={googleButton} alt="sign into Google Button" />
 					</a> */}
+					<div className = "potato">
+					
+					
+					</div>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+
+
 				</div>
 			)
 		}
