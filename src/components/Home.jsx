@@ -81,7 +81,7 @@ render(){
 							data-x="['left','left','left','left']"
 							data-y="['middle','middle','middle','middle']"
 							data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-								<h2>Let us help you find <br/>Ways to get Money</h2>
+								{/* <h2>Let us help you find <br/>Ways to get Money</h2> */}
 							</div>
 							
 							<div class="tp-caption" 
@@ -99,8 +99,8 @@ render(){
 							data-x="['left','left','left','left']"
 							data-y="['middle','middle','middle','middle']"
 							data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-								 <a href="about.html" class="theme-btn btn-style-one"><span>READ MORE</span></a>
-								<a href="content.html" class="theme-btn btn-style-two"><span>OUR WORKS</span></a>
+								 {/* <a href="about.html" class="theme-btn btn-style-one"><span>READ MORE</span></a>
+								<a href="content.html" class="theme-btn btn-style-two"><span>OUR WORKS</span></a> */}
 							</div>
 						</li>
 	
@@ -125,7 +125,7 @@ render(){
 							data-x="['left','left','left','left']"
 							data-y="['middle','middle','middle','middle']"
 							data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-								<h2>Wash cars or <br/> Mow lawns!</h2>
+								{/* <h2>Wash cars or <br/> Mow lawns!</h2> */}
 							</div>
 							
 							<div class="tp-caption" 
@@ -143,8 +143,8 @@ render(){
 							data-x="['left','left','left','left']"
 							data-y="['middle','middle','middle','middle']"
 							data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-								 <a href="about.html" class="theme-btn btn-style-one"><span>READ MORE</span></a>
-								<a href="content.html" class="theme-btn btn-style-two"><span>OUR WORKS</span></a> 
+								 {/* <a href="about.html" class="theme-btn btn-style-one"><span>READ MORE</span></a>
+								<a href="content.html" class="theme-btn btn-style-two"><span>OUR WORKS</span></a>  */}
 							</div>
 						</li>
 					</ul>
