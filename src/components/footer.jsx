@@ -2,49 +2,7 @@ import React, { Component } from 'react'
 
 export default class footer extends Component {
 
-    componentDidMount() {
-        var jss = [
-            "js/jquery.js",
-            "js/popper.min.js",
-            "js/bootstrap.min.js",
-            "js/geolocation.js",
-            "js/jquery-ui.js",
-            "js/jquery.themepunch.revolution.min.js",
-            "js/jquery.themepunch.tools.min.js",
-            "js/extensions/revolution.extension.actions.min.js",
-            "js/extensions/revolution.extension.carousel.min.js",
-            "js/extensions/revolution.extension.kenburn.min.js",
-            "js/extensions/revolution.extension.layeranimation.min.js",
-            "js/extensions/revolution.extension.migration.min.js",
-            "js/extensions/revolution.extension.navigation.min.js",
-            "js/extensions/revolution.extension.parallax.min.js",
-            "js/extensions/revolution.extension.slideanims.min.js",
-            "js/extensions/revolution.extension.video.min.js",
-            "js/jquery.fancybox.js",
-            "js/owl.js",
-            "js/wow.js",
-            "js/isotope.js",
-            "js/appear.js",
-            "js/script.js",
-            "js/knob.js",
-            "js/main-slider-script.js",
-            "js/map-script.js",
-            "js/respond.js",
-            "js/sticky.js",
-            "js/validate.js",
-
-        ]
-
-        jss.forEach((e) => {
-
-            const script = document.createElement("script");
-
-            script.src = e;
-            script.async = false;
-
-            document.body.appendChild(script);
-        })
-    }
+    
     render() {
         return (
             <div>
