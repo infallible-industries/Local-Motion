@@ -1,3 +1,9 @@
+
+h3 {
+    color: white;
+
+}
+
 #home{
     overflow: hidden;
     margin: 20px 0px ;
@@ -8,5 +14,23 @@
 h2, .auto-container, .sec-title {
     z-index: 1000;
     font-size: 40px;
+    color: white;
     
+}
+
+.a{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+a {
+    color: white;
+}
+
+.taskers{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    text-shadow: 3px 2px solid black;
+    line-height: 1.2;
+    margin-bottom: 50px;
 }

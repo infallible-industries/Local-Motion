@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Header.css"
 // TODO - add proptypes
 
 const Header = props => {
@@ -6,7 +7,7 @@ const Header = props => {
 	let sign
 	if (props.user === null) {
 		Greeting = <p>Hello guest</p>
-		
+
 	} else if (props.user.firstName) {
 		Greeting = (
 			<p>
@@ -30,7 +31,8 @@ const Header = props => {
 	} else if (props.user.username) {
 		sign = (
 			<ul class="clearfix">
-				<li><a href="#">Logout</a></li>
+			<li><a href="#">Task</a></li>
+			<li><a href="#">Logout</a></li>
 			</ul>
 		)
 	}

@@ -179,7 +179,7 @@ render(){
 			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
 				   <div class="inner-box">
 					   <span class="icon flaticon-light-bulb-1"></span>
-					   <h3><a href="services.html">Lawn Mowing</a></h3>
+					   <h3><a className="taskers"href="/Task">Lawn Mowing</a></h3>
 					   {/* <div class="text">Help someone close to you mow their lawn and make a few bucks!</div> */}
 				   </div>
 			   </div>
@@ -188,7 +188,7 @@ render(){
 			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
 				   <div class="inner-box">
 					   <span class="icon flaticon-measure"></span>
-					   <h3><a href="services.html">Car Mechanics</a></h3>
+					   <h3><a className="taskers" href="/Task">Car Mechanics</a></h3>
 					   {/* <div class="text">Help someone build the furniture they can't!</div> */}
 				   </div>
 			   </div>
@@ -197,7 +197,7 @@ render(){
 			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
 				   <div class="inner-box">
 					   <span class="icon flaticon-dashboard"></span>
-					   <h3><a href="services.html">House Cleaning</a></h3>
+					   <h3><a className="taskers" href="/Task">House Cleaning</a></h3>
 					   {/* <div class="text">Help someone with their dirty house!</div> */}
 				   </div>
 			   </div>
@@ -206,7 +206,7 @@ render(){
 			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
 				   <div class="inner-box">
 					   <span class="icon flaticon-cogwheel-outline"></span>
-					   <h3><a href="services.html">Dish Washing</a></h3>
+					   <h3><a className="taskers" href="/Task">Dish Washing</a></h3>
 					   {/* <div class="text">Clean up someone's mess could earn you money in your pocket!</div> */}
 				   </div>
 			   </div>
@@ -215,7 +215,7 @@ render(){
 			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
 				   <div class="inner-box">
 					   <span class="icon flaticon-vector-2"></span>
-					   <h3><a href="services.html">Moving Heavy Items</a></h3>
+					   <h3><a className="taskers" href="/Task">Moving Heavy Items</a></h3>
 					   {/* <div class="text">Moving someones furniture has never been easier!</div> */}
 				   </div>
 			   </div>
@@ -224,7 +224,7 @@ render(){
 			   <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
 				   <div class="inner-box">
 					   <span class="icon flaticon-layers"></span>
-					   <h3><a href="services.html">Home improvement</a></h3>
+					   <h3><a className="taskers" href="/Task">Home improvement</a></h3>
 					   {/* <div class="text">Being the handy man, can be very lucrative!</div> */}
 				   </div>
 			   </div>

@@ -12,6 +12,7 @@ const session = require('express-session')
 const MongoStore = require('connect-mongo')(session)
 const dbConnection = require('./db') // loads our connection to the mongo database
 const passport = require('./passport')
+
 const app = express()
 const PORT =  3001
 
@@ -70,6 +71,7 @@ if (process.env.NODE_ENV === 'production') {
 
 /* Express app ROUTING */
 app.use('/auth', require('./auth'))
+app.use('/api', require('./router/api'))
 
 // ====== Error handler ====
 app.use(function(err, req, res, next) {

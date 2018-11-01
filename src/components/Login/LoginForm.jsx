@@ -37,6 +37,7 @@ class LoginForm extends Component {
 			return <Redirect to={{ pathname: this.state.redirectTo }} />
 		} else {
 			return (
+				
 				<div className="LoginForm">
 					<h1>Login form</h1>
 					<form>
@@ -59,7 +60,7 @@ class LoginForm extends Component {
 					{/* <a href="/auth/google">
 						<img src={googleButton} alt="sign into Google Button" />
 					</a> */}
-					
+				
 
 
 					<img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/contractor.jpeg"/> 

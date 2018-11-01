@@ -1,13 +1,15 @@
 .App {
   text-align: center;
   background-color:black;
-  
+  background-image: url("/public/images/carwash.jpeg");
 }
 :root{
   background-image: url("/public/images/carwash.jpeg");
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
+  background-color: black;
+  
 }
 
 .App-logo {
@@ -37,6 +39,9 @@
   font-family: 'Notable', sans-serif;
 }
 
+p {
+  color: white;
+}
 
 
 /* .potato {

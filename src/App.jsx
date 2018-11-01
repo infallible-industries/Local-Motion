@@ -9,7 +9,12 @@ import LoginForm from './components/Login/LoginForm'
 import SignupForm from './components/SignupForm'
 import Header from './components/Header'
 import Home from './components/Home' 
+import Task from './components/Task' 
+import TaskForm from './components/TaskForm' 
 import Footer from './components/footer'
+import Thing from './components/Thing';
+import Jobs from './components/Jobs' 
+
 
 
 const DisplayLinks = props => {
@@ -20,6 +25,16 @@ const DisplayLinks = props => {
 					<li className="nav-item">
 						<Link to="/" className="nav-link">
 							Home
+						</Link>
+					</li>
+					<li className="nav-item">
+						<Link to="/TaskForm" className="nav-link">
+							Post a Task
+						</Link>
+					</li>
+					<li className="nav-item">
+						<Link to="/Jobs" className="nav-link">
+							Do a Task
 						</Link>
 					</li>
 					<li>
@@ -64,7 +79,8 @@ class App extends Component {
 		super()
 		this.state = {
 			loggedIn: false,
-			user: null
+			user: null,
+			task: null
 		}
 		this._logout = this._logout.bind(this)
 		this._login = this._login.bind(this)
@@ -103,6 +119,9 @@ class App extends Component {
 	}
 
 	_login(username, password) {
+		console.log(username);
+		console.log(password);
+		
 		axios
 			.post('/auth/login', {
 				username,
@@ -118,6 +137,9 @@ class App extends Component {
 					})
 				}
 			})
+	}
+	setTask(task){
+		this.task = task
 	}
 
 	render() {
@@ -138,6 +160,14 @@ class App extends Component {
 							_googleSignin={this._googleSignin}
 						/>}
 				/>
+				<Route exact path="/Task" render={() => <Task setTask={this.setTask.bind(this)} />}/>
+				<Route exact path="/TaskForm" component={TaskForm} />
+
+				<Route exact path="/Jobs" component={Jobs} />
+				<Route exact path="/Thing" render={() =>
+						<Thing
+							task={this.task}							
+						/>} />
 				<Route exact path="/signup" component={SignupForm} />
 				{/* <LoginForm _login={this._login} /> */}
 				<Footer/>

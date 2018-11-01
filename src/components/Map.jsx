@@ -7,7 +7,7 @@ export class MapContainer extends Component {
     const  {loc}  = this.props
     return (
       <div style={{ height: '80vh', width: '100%' }}>
-      <Map google={this.props.google} style={{ height: '80vh', width: '100%' }} zoom={14} initialCenter={(loc)?loc: { lat: 37.8716, lng: -122.2727} }>
+      <Map google={this.props.google} style={{ height: '80vh', width: '100%' }} zoom={17} initialCenter={(loc)?loc: { lat: 37.8717, lng: -122.2732} }>
 
         <Marker onClick={this.onMarkerClick}
                 name={'Current location'} />
