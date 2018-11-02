@@ -8,6 +8,7 @@ a {
  .card{
     width: 25%;
     padding-bottom:20px ;
+    margin: 0 auto;
     margin-bottom: 60px;
     margin-top: 50px;
     padding: 40px;

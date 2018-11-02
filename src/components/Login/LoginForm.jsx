@@ -55,7 +55,7 @@ class LoginForm extends Component {
 							value={this.state.password}
 							onChange={this.handleChange}
 						/>
-						<button onClick={this.handleSubmit}>Login</button>
+						<button class="login" onClick={this.handleSubmit}>Login</button>
 					</form>
 					{/* <a href="/auth/google">
 						<img src={googleButton} alt="sign into Google Button" />

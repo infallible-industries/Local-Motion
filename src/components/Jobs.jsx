@@ -38,7 +38,8 @@ import { Card, CardImg, CardText, CardBody,
           <CardText>1885 University Ave </CardText>
           <CardText>Berkeley</CardText>
           <CardText>$10.00</CardText>
-          <Button className="btn" href="/TaskForm">Do Job!</Button>
+          <Button className="btn" href="mailto:infallibleindustries@gmail.com">Do Job!</Button>
+          <Button className="btn" href="/Thing">See Location!</Button>
         </CardBody>
       </Card>
        
